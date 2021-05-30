@@ -9,7 +9,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace WebApplication4.Models
 {
-   public class HotelData : DbContext
+    public class HotelData : DbContext
     {
         public HotelData([NotNullAttribute] DbContextOptions options) : base(options)
         {
@@ -19,6 +19,5 @@ namespace WebApplication4.Models
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<CityHotel> CityHotels { get; set; }
 
-        
     }
 }

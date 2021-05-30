@@ -22,5 +22,6 @@ namespace WebApplication4
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+
     }
 }
